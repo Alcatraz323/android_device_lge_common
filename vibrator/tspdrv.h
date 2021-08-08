@@ -29,6 +29,8 @@
 #ifndef _TSPDRV_H
 #define _TSPDRV_H
 
+#include <linux/ioctl.h>
+
 /* Constants */
 #define MODULE_NAME                         "tspdrv"
 #define TSPDRV                              "/dev/"MODULE_NAME
